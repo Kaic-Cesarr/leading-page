@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
 .bg{
-    background-color: #F9F9F7;
+    background: var(--bg);
+}
+
+.bgOrange {
+    background: var(--orangeColor);
+}
+
+.halfWidth {
+    width: 50vw;
+}
+
+
+:root {
+    --bg: #F9F9F7;
+    --orangeColor: #FF9100;
 }
